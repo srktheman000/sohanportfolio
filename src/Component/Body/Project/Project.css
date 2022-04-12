@@ -1,0 +1,19 @@
+.projects {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.section-title {
+
+  font-size: 32px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.projecthead {
+  background-color: blueviolet;
+  border-radius: 20px;
+  color: white;
+  padding: 5px 10px;
+}

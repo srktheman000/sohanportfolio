@@ -1,0 +1,54 @@
+.Contact {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about_left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 35px;
+  padding: 0;
+  width: 60%;
+}
+.about_right {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.contact_img {
+  width: 28vw;
+  margin: 5px;
+}
+
+.contact_header {
+  font-size: 45px;
+  text-align: center;
+}
+.contact-text {
+  font-size: 24px;
+  width: 100%;
+  text-align: center;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.email_text {
+  font-size: 20px;
+  font-weight: 600;
+  color: blueviolet;
+}
+
+@media only screen and (max-width: 720px) {
+  .Contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .about_left {
+    width: 100%;
+  }
+}

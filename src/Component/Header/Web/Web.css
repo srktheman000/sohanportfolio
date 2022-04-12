@@ -1,0 +1,28 @@
+.web {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.web-option {
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 16px;
+}
+
+.web-option a {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.option-icon {
+  display: flex;
+  align-items: center;
+  margin: 4px;
+}
+
+.web-option:last-child {
+  margin-right: 8px;
+}

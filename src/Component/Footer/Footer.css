@@ -1,0 +1,26 @@
+.footer-distributed {
+    background-color: azure;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+
+}
+
+.footer-center {
+    text-align: center;
+}
+
+.footer-center p {
+    font-size: medium;
+    color: blueviolet;
+}
+
+@media only screen and(max-width: 1336px) {
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right {
+        text-align: center;
+    }
+}

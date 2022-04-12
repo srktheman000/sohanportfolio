@@ -1,0 +1,49 @@
+.about {
+  padding: 30px;
+  overflow: hidden;
+  /* background-color: crimson; */
+}
+.about-top {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  /* background-color: coral; */
+}
+
+.picture {
+  height: 420px;
+  margin: 10px;
+}
+
+.about-info {
+  font-size: 28px;
+}
+.about-photo {
+  max-width: 450px;
+  margin: 10px;
+}
+
+.info-name {
+  font-size: 24px;
+  color: blueviolet;
+}
+
+@media only screen and (max-width: 720px) {
+  .about-top {
+    flex-direction: column;
+    justify-content: centre;
+    align-items: center;
+  }
+  .picture {
+    height: 250px;
+  }
+  .about-info {
+    font-size: 20px;
+  }
+  .info-name {
+    font-size: 26px;
+    color: blueviolet;
+  }
+}
