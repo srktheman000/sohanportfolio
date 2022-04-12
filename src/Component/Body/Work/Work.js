@@ -9,7 +9,7 @@ function Work() {
     <div className="Work" id="Work">
       <Separator />
       <label htmlFor="work" className="work">
-        <span className="projecthead">Work</span>
+        <span className="projecthead manageworkhead">Work</span>
       </label>
       <div className="worklist">
         {data.map((item) => {

@@ -9,7 +9,7 @@ function Project() {
     <div className="projects" id="Project">
       <Separator />
       <label className="section-title">
-        <span className="projecthead">Projects</span>
+        <span className="project">Projects</span>
       </label>
       <div>
         {data.map((project) => {
