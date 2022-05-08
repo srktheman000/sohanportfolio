@@ -31,4 +31,15 @@ export const Projectdata = [
     image:
       "https://i.postimg.cc/cCdqPYZL/ecommerce.png)](https://postimg.cc/VrZHCJdx",
   },
+  {
+    id: 4,
+    title: "MovieApp",
+    about:
+      "It is aMovie app build with react js where u can latest movie updates ",
+    tag: ["react", "node", "Bootstrap"],
+    demo: " https://sohanmovieapp.netlify.app/",
+    github: "https://github.com/srktheman000/MovieApp",
+    image:
+      "[![movieimages.png](https://i.postimg.cc/TYThRqh5/movieimages.png)](https://postimg.cc/w3b92NX9)",
+  },
 ];
