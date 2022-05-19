@@ -40,6 +40,6 @@ export const Projectdata = [
     demo: " https://sohanmovieapp.netlify.app/",
     github: "https://github.com/srktheman000/MovieApp",
     image:
-      "[![movieimages.png](https://i.postimg.cc/TYThRqh5/movieimages.png)](https://postimg.cc/w3b92NX9)",
+      "https://i.postimg.cc/TYThRqh5/movieimages.png)](https://postimg.cc/w3b92NX9)",
   },
 ];
